@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+}
+
+.App {
+    text-align: center;
+    background-color: blue;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.home-page {
+    background: linear-gradient(180deg, rgb(42, 0, 64) 0%, rgb(40, 42, 119) 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-image {
+    position: relative;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.header-image img {
+    width: 100%;
+    height: auto;
+    margin-top: 56px;
+}
+
+.header-content {
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.3rem;
+}
+
+.header-content p {
+    margin-left: 20%;
+    font-size: 1.3rem;
+}
+
+.about-us-section {
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+    background-color: #56438e80;
+}
+
+.about-us-section p {
+    margin-top: 5%;
+    color: rgba(138, 146, 166, 1);
+    font-size: 1.5em;
+    padding-bottom: 100px;
+}
+
+.header-content p {
+    width: 100%;
+    margin-top: 4%;
+    margin-left: 15%;
+    font-size: 1.1em;
+}
+
+/* NAVBAR */
+
+.navbar-custom {
+    background-color: transparent !important;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.ml-auto {
+    margin-left: auto !important;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+/* CONTACTO */
+
+.contact-section {
+    padding: 60px 0;
+    background-color: #56438e80;
+    color: white;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-section .contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-section .contact-info h3 {
+    margin-bottom: 20px;
+}
+
+.contact-section .contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-section .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-section .form-control {
+    border-radius: 0;
+}
+
+.contact-section .btn-primary {
+    background-color: #282068;
+    border: none;
+    border-radius: 0;
+}
+
+.custom-btn {
+    background-color: #007bff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+.footer .nav-link {
+    color: white;
+}
+
+.footer .nav-link:hover {
+    color: #ddd;
+}
+
+.software-section {
+    padding: 60px;
+    text-align: center;
+}
+
+.software-section h2 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-weight: bold;
+}
